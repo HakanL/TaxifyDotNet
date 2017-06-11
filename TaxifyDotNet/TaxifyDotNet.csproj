@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <RootNamespace>Haukcode.TaxifyDotNet</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Hakan Lindestaf</Authors>
+    <Company>Haukcode</Company>
+    <Description>.NET SDK for Taxify.co API</Description>
+    <Copyright>(C) Copyright 2017 Hakan Lindestaf</Copyright>
+    <PackageTags>tax</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+    <PackageReference Include="System.Net.Http" Version="4.3.2" />
+  </ItemGroup>
+
+</Project>
