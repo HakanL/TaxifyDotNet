@@ -12,6 +12,10 @@
     <PackageLicenseUrl>https://github.com/HakanL/TaxifyDotNet/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/HakanL/TaxifyDotNet</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
+    <PackageProjectUrl>https://github.com/HakanL/TaxifyDotNet</PackageProjectUrl>
+    <PackageIconUrl>https://taxify.co/wp-content/uploads/Taxify_bySovos.png</PackageIconUrl>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
