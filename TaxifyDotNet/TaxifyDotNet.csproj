@@ -9,6 +9,9 @@
     <Description>.NET SDK for Taxify.co API</Description>
     <Copyright>(C) Copyright 2017 Hakan Lindestaf</Copyright>
     <PackageTags>tax</PackageTags>
+    <PackageLicenseUrl>https://github.com/HakanL/TaxifyDotNet/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/HakanL/TaxifyDotNet</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
