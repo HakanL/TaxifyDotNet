@@ -11,6 +11,7 @@ namespace Haukcode.TaxifyDotNet
         Validated,
         StreetLevelOverride,
         CompleteOverride,
-        NotValidated
+        NotValidated,
+        Null
     }
 }
