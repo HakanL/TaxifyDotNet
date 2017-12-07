@@ -35,5 +35,7 @@ namespace Haukcode.TaxifyDotNet.Messages
         public Models.Discount[] Discounts { get; set; }
 
         public bool IsCommitted { get; set; }
+
+        public decimal? OverrideTaxCollectedAmount { get; set; }
     }
 }

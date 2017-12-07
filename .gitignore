@@ -57,3 +57,4 @@ packages/
 node_modules/
 bower_components/
 *.asv
+.vs/

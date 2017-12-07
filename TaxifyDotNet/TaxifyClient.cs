@@ -129,7 +129,8 @@ namespace Haukcode.TaxifyDotNet
             DateTime? taxDate = null,
             string[] tags = null,
             Models.Discount[] discounts = null,
-            Models.TaxRequestOption[] options = null)
+            Models.TaxRequestOption[] options = null,
+            decimal? overrideTaxCollectedAmount = null)
         {
             var request = new Messages.CalculateTaxRoot
             {
@@ -149,7 +150,8 @@ namespace Haukcode.TaxifyDotNet
                     Tags = tags,
                     Discounts = discounts,
                     Options = options,
-                    IsCommitted = false
+                    IsCommitted = false,
+                    OverrideTaxCollectedAmount = overrideTaxCollectedAmount
                 }
             };
 
@@ -168,7 +170,8 @@ namespace Haukcode.TaxifyDotNet
             DateTime? taxDate = null,
             string[] tags = null,
             Models.Discount[] discounts = null,
-            Models.TaxRequestOption[] options = null)
+            Models.TaxRequestOption[] options = null,
+            decimal? overrideTaxCollectedAmount = null)
         {
             var request = new Messages.CalculateTaxRoot
             {
@@ -188,7 +191,8 @@ namespace Haukcode.TaxifyDotNet
                     Tags = tags,
                     Discounts = discounts,
                     Options = options,
-                    IsCommitted = true
+                    IsCommitted = true,
+                    OverrideTaxCollectedAmount = overrideTaxCollectedAmount
                 }
             };
 
