@@ -23,7 +23,7 @@ namespace Haukcode.TaxifyDotNet.Messages
         public Models.TaxLineDetailResponse[] TaxLineDetails { get; set; }
 
         [JsonConverter(typeof(CustomDateTimeConverter), "yyyy-MM-dd")]
-        public DateTime EffectiveTaxDate { get; set; }
+        public DateTime? EffectiveTaxDate { get; set; }
 
         public string CustomerTaxabilityCode { get; set; }
 
